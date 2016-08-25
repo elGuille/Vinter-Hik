@@ -46,6 +46,8 @@ class VinterTree {
 //      if let nodeⓞ = nodesⓞ🅐
    }
    
+// GIT MY ASS! :)
+   
    func rise() {
    
    }
