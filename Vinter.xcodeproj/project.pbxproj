@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9304F9E31D6F970100F74055 /* HikarianLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9304F9E21D6F970100F74055 /* HikarianLibrary.swift */; };
 		9330DE511D6D16C3000DEA43 /* GestureRecognizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330DE4F1D6D16C3000DEA43 /* GestureRecognizers.swift */; };
 		9351EF531D6D22170042FC40 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 9351EF3F1D6D22170042FC40 /* 0.png */; };
 		9351EF541D6D22170042FC40 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9351EF401D6D22170042FC40 /* 1.png */; };
@@ -30,7 +31,6 @@
 		9351EF661D6D22170042FC40 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 9351EF521D6D22170042FC40 /* 19.png */; };
 		9351EF6A1D6E36440042FC40 /* NavigationDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351EF691D6E36440042FC40 /* NavigationDisplay.swift */; };
 		9351EF6E1D6E4D630042FC40 /* VinterTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351EF6D1D6E4D630042FC40 /* VinterTree.swift */; };
-		9351EF721D6F8D1C0042FC40 /* HikarianLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9351EF711D6F8D1C0042FC40 /* HikarianLibrary.swift */; };
 		939F2C851D67F1A600BF7197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939F2C841D67F1A600BF7197 /* AppDelegate.swift */; };
 		939F2C8D1D67F1A600BF7197 /* Vinter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 939F2C8B1D67F1A600BF7197 /* Vinter.xcdatamodeld */; };
 		939F2C8F1D67F1A600BF7197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939F2C8E1D67F1A600BF7197 /* Assets.xcassets */; };
@@ -55,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9304F9E21D6F970100F74055 /* HikarianLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HikarianLibrary.swift; path = Global/HikarianLibrary.swift; sourceTree = "<group>"; };
 		9330DE4F1D6D16C3000DEA43 /* GestureRecognizers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GestureRecognizers.swift; path = Classes/GestureRecognizers.swift; sourceTree = "<group>"; };
 		9351EF3F1D6D22170042FC40 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = Images/Target/0.png; sourceTree = "<group>"; };
 		9351EF401D6D22170042FC40 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Images/Target/1.png; sourceTree = "<group>"; };
@@ -78,7 +79,6 @@
 		9351EF521D6D22170042FC40 /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 19.png; path = Images/Target/19.png; sourceTree = "<group>"; };
 		9351EF691D6E36440042FC40 /* NavigationDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationDisplay.swift; path = Classes/NavigationDisplay.swift; sourceTree = "<group>"; };
 		9351EF6D1D6E4D630042FC40 /* VinterTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VinterTree.swift; path = Classes/VinterTree.swift; sourceTree = "<group>"; };
-		9351EF711D6F8D1C0042FC40 /* HikarianLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HikarianLibrary.swift; path = "../../Hikarian Library/HikarianLibrary.swift"; sourceTree = "<group>"; };
 		939F2C811D67F1A600BF7197 /* Vinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939F2C841D67F1A600BF7197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		939F2C8C1D67F1A600BF7197 /* Vinter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vinter.xcdatamodel; sourceTree = "<group>"; };
@@ -197,9 +197,9 @@
 		939F2C9B1D67F4A700BF7197 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				9304F9E21D6F970100F74055 /* HikarianLibrary.swift */,
 				939F2C841D67F1A600BF7197 /* AppDelegate.swift */,
 				939F2CAF1D67F50700BF7197 /* Globals.swift */,
-				9351EF711D6F8D1C0042FC40 /* HikarianLibrary.swift */,
 			);
 			name = Global;
 			sourceTree = "<group>";
@@ -358,7 +358,7 @@
 				939F2CBB1D67F52400BF7197 /* FeedVC.swift in Sources */,
 				939F2C851D67F1A600BF7197 /* AppDelegate.swift in Sources */,
 				939F2CC91D67F5FD00BF7197 /* ThumbnailCVCell.swift in Sources */,
-				9351EF721D6F8D1C0042FC40 /* HikarianLibrary.swift in Sources */,
+				9304F9E31D6F970100F74055 /* HikarianLibrary.swift in Sources */,
 				939F2CAE1D67F4F800BF7197 /* DataModel.swift in Sources */,
 				939F2CBA1D67F52400BF7197 /* CameraVC.swift in Sources */,
 				9351EF6A1D6E36440042FC40 /* NavigationDisplay.swift in Sources */,
